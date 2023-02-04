@@ -14,14 +14,22 @@ final class DivisionTests: XCTestCase {
         //arrange
         let division = Division(code: "testDiv")
         let dateToday = Date()
-        let absence = Absence(date: dateToday, students: Student.examples)
-        division.absences.append(absence)
+        let dateTomorrow = Date(timeIntervalSinceNow: 1000000000000000000000000000000000000)
+        let dateLaterToday = Date(timeIntervalSinceNow: 100)
+        let absence1 = Absence(date: dateTomorrow, students: Student.examples)
+        let absence2 = Absence(date: dateToday, students: Student.examples)
+        division.absences.append(absence1)
+        division.absences.append(absence2)
         
         //act
-        let actual = division.getAbsence(for: dateToday)
+        let actual = division.getAbsence(for: dateLaterToday)
         
         //assert
         XCTAssertNotNil(actual)
+        if let actualNotNil = actual {
+            XCTAssertEqual(actualNotNil.takenOn, absence2.takenOn)
+        }
+        
     }
 
 }
