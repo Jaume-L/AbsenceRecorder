@@ -18,7 +18,7 @@ final class DivisionTests: XCTestCase {
         division.absences.append(absence)
         
         //act
-        let actual = division.getAbsence(date: dateToday)
+        let actual = division.getAbsence(for: dateToday)
         
         //assert
         XCTAssertNotNil(actual)
