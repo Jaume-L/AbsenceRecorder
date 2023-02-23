@@ -26,6 +26,7 @@
 		81B72C82298C3F97007B84DA /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B72C81298C3F97007B84DA /* RootTabView.swift */; };
 		81B72C84298C4036007B84DA /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B72C83298C4036007B84DA /* StatisticsView.swift */; };
 		81B72C86298C420C007B84DA /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B72C85298C420C007B84DA /* StateController.swift */; };
+		81BA1C2829A80458006E1DC2 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA1C2729A80458006E1DC2 /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		81B72C81298C3F97007B84DA /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		81B72C83298C4036007B84DA /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		81B72C85298C420C007B84DA /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		81BA1C2729A80458006E1DC2 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				81B72C7B298C38AF007B84DA /* Date.swift */,
+				81BA1C2729A80458006E1DC2 /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				81B72C4D298C2FF0007B84DA /* DivisionsView.swift in Sources */,
 				81B72C7C298C38AF007B84DA /* Date.swift in Sources */,
 				81B72C82298C3F97007B84DA /* RootTabView.swift in Sources */,
+				81BA1C2829A80458006E1DC2 /* FileManager.swift in Sources */,
 				81379089298DC7AA00F05F09 /* StudentAbsence.swift in Sources */,
 				81B72C77298C30E9007B84DA /* Student.swift in Sources */,
 				81379087298DC46E00F05F09 /* AbsenceItem.swift in Sources */,
